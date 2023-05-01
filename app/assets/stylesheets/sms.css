@@ -1,0 +1,16 @@
+.sms-form {
+  max-width: 45rem;
+}
+
+.sms-form label, .sms-form input, .sms-form textarea  {
+  display: block;
+  width: 100%;
+}
+
+.sms-form label {
+  font-weight: bold;
+}
+
+.sms-form textarea {
+  resize: vertical;
+}
