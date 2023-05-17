@@ -4,7 +4,7 @@
 
 To run this demo application, you will need the following:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) installed (Version 3.0.0)
 - A [Vonage Developer](https://developer.vonage.com/sign-up) account
 
 ## Running the Demo
@@ -19,3 +19,5 @@ To run this demo application, you will need the following:
 5. In the repo directory, run `rails s`
 6. Navigate to `localhost:3000` and make some Message requests by submitting the form.
     - Try swapping out the `send_with_net_http` invocation on line 9 of the `SmsController` for `send_with_faraday` or `send_with_vonage_sdk`
+
+📝 Note: Phone number should include the international dialing code (e.g. 81 for Japan, 44 for UK, etc.)
