@@ -40,3 +40,5 @@
 # Ignore Vonage private key file
 
 private.key
+
+.DS_Store

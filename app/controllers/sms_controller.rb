@@ -44,8 +44,7 @@ class SmsController < ApplicationController
       headers: {
         'Content-Type' => 'application/json',
         'Authorization' => 'Basic ' + basic_authentication
-      },
-
+      }
     )
 
     response = connection.post('/v1/messages/') do |request|
