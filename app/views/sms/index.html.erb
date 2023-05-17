@@ -2,7 +2,7 @@
   <h1>Le Wagon Vonage API Demo</h1>
 
   <%= form_with url: "/sms", method: :post do |form| %>
-    <%= form.label :number, "Number:" %>
+    <%= form.label :number, "Number: (Include international dialing code (e.g. 81 for Japan, 44 for UK, etc.)" %>
     <%= form.text_field :number, :required => true %>
     <%= form.label :message, "Message:" %>
     <%= form.text_area :message, :required => true %>
